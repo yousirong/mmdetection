@@ -4,10 +4,10 @@ import json
 from PIL import Image
 
 # train2025의 상위 디렉터리 경로 (여러 하위 디렉터리를 포함)
-parent_dir = "/home/juneyonglee/Desktop/mmdetection/data/wave/train2025"
+parent_dir = "/home/juneyonglee/Desktop/mmdetection/data/wave/val2025"
 
 # annotation 파일을 저장할 경로 (원하는 경로로 수정)
-output_dir = "/home/juneyonglee/Desktop/mmdetection/data/wave/annotations"
+output_dir = "/home/juneyonglee/Desktop/mmdetection/data/wave/instances_val2025"
 os.makedirs(output_dir, exist_ok=True)
 
 # 전체 데이터를 저장할 딕셔너리: key = 하위 디렉터리 이름, value = 해당 디렉터리의 COCO annotation dict
